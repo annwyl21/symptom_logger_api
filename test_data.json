@@ -1,5 +1,4 @@
-{
-	"data": [{"date":"2023-10-01","time":"20:49","pain_score":1,"description":"Slight discomfort in right hip"},
+[{"date":"2023-10-01","time":"20:49","pain_score":1,"description":"Slight discomfort in right hip"},
 	{"date":"2023-10-03","time":"14:07","pain_score":2,"description":"right hip feels stiff to move, difficulty standing for long periods"},
 	{"date":"2023-10-05","time":"07:23","pain_score":3,"description":"Noticeable pain in right hip, especially when climbing stairs."},
 	{"date":"2023-10-07","time":"19:21","pain_score":4,"description":"Pain in right hip while sitting"},
@@ -11,4 +10,3 @@
 	{"date":"2023-10-19","time":"09:36","pain_score":10,"description":"Right hip really hurts today, walking is really slow and laboured"},
 	{"date":"2023-10-21","time":"16:53","pain_score":10,"description":"Right hip feels really painful, can hardly get up the stairs"},
 	{"date":"2023-10-23","time":"07:55","pain_score":10,"description":"Right hip feels very painful after sleeping on it."}]
-}

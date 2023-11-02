@@ -7,7 +7,6 @@ app = Flask(__name__)
 def summarize():
 	if request.method == 'POST':
 		data = request.json
-		data = data['data']
 	
 		summary = Summarize.create_summary(data)
 
