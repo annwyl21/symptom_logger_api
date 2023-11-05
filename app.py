@@ -16,7 +16,7 @@ def summarize():
 			summary = summarize_with_ai(data).choices[0].text
 		else:
 			summary = Summarize.create_summary(data)
-
+		
 		return jsonify(summary)
 	
 	else:

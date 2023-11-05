@@ -20,12 +20,9 @@ def summarize_with_ai(data):
     1. find out relevant symptoms from the information provided.
     2. then, summarise the text provided in simple, short sentences.
     3. Identify the status of symptoms, are they improving or worsening?
-    4. Separate your answers with line breaks.
+    4. Use json to return the results using these key value pairs - summary: <short summary using 'I'>, status: <status>, period: <time period in days>.
     5. Reread your summary before you return it to me and check that all the symptoms described do exist in the original text provided.
-    Use the following format:
-    Summary: <short summary using 'I'>
-    Status: <status>
-    Time period: <time period in days>
+    6. If the summary is not accurate, then try again.
     Text:```""" + symptom_history + "```",
       temperature=1,
       max_tokens=100,
